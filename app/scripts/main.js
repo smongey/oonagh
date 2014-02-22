@@ -1,12 +1,11 @@
 'use strict';
-$('body').addClass('hidden');
 
 function captionFix(){
-	// console.log('captionfix ran');
+	console.log('captionfix ran');
 	$('.col-1, .col-2').each(function(){
 		var imgWidth = $(this).find('img').width();
 		$(this).find('.caption').css('width', imgWidth);
-		// console.log(imgWidth);
+		console.log(imgWidth);
 	});
 }
 
