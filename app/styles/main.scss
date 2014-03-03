@@ -28,10 +28,10 @@ body.hidden { opacity: 0; }
 .piece { }
 
 .caption { opacity: 0; padding-bottom: 40px; display: inline-block; min-width:200px; transition: all ease 0.2s;
-    p { text-align: left; color: #333; }
+    p { text-align: left; color: #000; }
     em { font-style: italic; }
-    a { margin-top:5px; color:#333; display: inline-block; position: relative; transition:all ease 0.2s; text-decoration: none; padding: 0 5px; transition: all ease 0.2s; }
-    a:before { content: '';  position: absolute; z-index: -1; width: 100%; left:0px; top:0px; height:100%; background: rgba(0,0,0,0.1); transition: all ease 0.2s; }
+    a { margin-top:5px; color: #000; display: inline-block; position: relative; transition:all ease 0.2s; text-decoration: none; padding: 0 5px; transition: all ease 0.2s; }
+    a:before { content: '';  position: absolute; z-index: -1; width: 100%; left:0px; top:0px; height:100%; background: rgba(0,0,0,0.05); transition: all ease 0.2s; }
     a:after { content: '';  position: absolute; z-index: -1; width: 100%; left:0px; bottom:0px; height:0%; background: rgba(0,0,0,1); transition: all ease 0.2s; }
     a:hover {
     	color: white;
